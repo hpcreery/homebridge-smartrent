@@ -4,7 +4,7 @@
   "singular": true,
   "customUi": true,
   "headerDisplay": "Homebridge plugin for SmartRent installations",
-  "footerDisplay": "For documentation please see [GitHub](https://github.com/Burry/homebridge-smartrent)",
+  "footerDisplay": "For documentation please see [GitHub](https://github.com/devmattrick/homebridge-smartrent)",
   "schema": {
     "type": "object",
     "properties": {

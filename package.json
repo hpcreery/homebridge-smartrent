@@ -1,6 +1,6 @@
 {
   "displayName": "SmartRent",
-  "name": "@hpcreery/homebridge-smartrent",
+  "name": "@devmattrick/homebridge-smartrent",
   "version": "1.1.0",
   "description": "Homebridge plugin for SmartRent installations",
   "keywords": [
@@ -15,10 +15,10 @@
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
   },
-  "author": "Hunter Creery",
+  "author": "Matthew McCune",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hpcreery/homebridge-smartrent.git"
+    "url": "git+https://github.com/devmattrick/homebridge-smartrent.git"
   },
   "engines": {
     "node": ">=12",
@@ -53,6 +53,9 @@
     "axios": "^0.25.0",
     "ws": "^8.8.1"
   },
+  "peerDependencies": {
+    "homebridge": ">=1.6.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
@@ -68,7 +71,7 @@
     "@typescript-eslint/parser": "^5.10.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.7.0",
-    "homebridge": "^1.4.0",
+    "homebridge": "^1.6.0",
     "husky": "^7.0.4",
     "lint-staged": "^13.0.3",
     "nodemon": "^2.0.15",
@@ -81,7 +84,7 @@
   },
   "types": "./dist/index.d.ts",
   "bugs": {
-    "url": "https://github.com/hpcreery/homebridge-smartrent/issues"
+    "url": "https://github.com/devmattrick/homebridge-smartrent/issues"
   },
-  "homepage": "https://github.com/hpcreery/homebridge-smartrent#readme"
+  "homepage": "https://github.com/devmattrick/homebridge-smartrent#readme"
 }
